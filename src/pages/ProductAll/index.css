@@ -1,0 +1,102 @@
+.product-list {
+    width: 100%;
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    font-family: "Barlow Semi Condensed";
+}
+
+.product-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: max-content;
+    overflow: hidden;
+    position: relative;
+    font-family: "Barlow Semi Condensed";
+}
+
+/* product item */
+.product-img {
+    position: relative;
+    cursor: pointer;
+}
+
+.product-item:hover>.product-img>img:nth-child(2) {
+    display: block;
+    background-color: aqua;
+    animation: show 0.4s linear forwards;
+}
+
+.product-item:hover>.product-content {
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.product-item:hover>.product-btn {
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.product-img>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-img>img:nth-child(2) {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product-img>span {
+    background: rgb(65, 0, 153);
+    z-index: 1;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+    position: absolute;
+    top: 3%;
+    font-family: "Barlow Semi Condensed";
+    left: 0;
+}
+
+.product-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: "Barlow Semi Condensed";
+    opacity: 0.75;
+}
+
+.product-btn {
+    width: 100%;
+    border: 2px solid #807e7e;
+    padding: 13px 0;
+    position: absolute;
+    bottom: -50.7px;
+    font-family: "Barlow Semi Condensed";
+}
+
+.product-btn:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.3s;
+    transform-origin: center;
+}

@@ -1,0 +1,215 @@
+.container {
+    max-width: 1890px;
+    margin: 0px auto;
+}
+
+.header {
+    color: rgb(61, 61, 61);
+    display: block;
+    font-family: "Barlow Semi Condensed";
+    font-size: 14px;
+    line-height: 23px;
+    width: 100%;
+    height: auto;
+}
+
+.label-header {
+    display: flex;
+    align-items: center;
+    font-family: "Barlow Semi Condensed";
+    font-size: 14px;
+    line-height: 23px;
+    width: 100%;
+
+}
+
+.nav-left {
+    display: block;
+    font-family: "Barlow Semi Condensed";
+    font-size: 14px;
+    line-height: 23px;
+    max-width: 33%;
+    padding-left: 0;
+    width: 458px;
+}
+
+.nav-left-info>li {
+    display: inline;
+    list-style: none;
+}
+
+.nav-left-item {
+    margin-right: 27px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-left-item>a {
+    text-decoration: none;
+    color: inherit;
+    cursor: auto;
+}
+
+.logo-wrapper {
+    background-size: auto;
+    color: rgb(6, 87, 163);
+    font-family: "Barlow Semi Condensed";
+    font-size: 14px;
+    line-height: 23px;
+    max-width: 33%;
+    margin-top: 5px;
+}
+
+.center-block {
+    margin-left: 79px;
+    margin-right: 79px;
+    max-width: 100%;
+}
+
+.nav-right-utility {
+    display: flex;
+    font-family: "Barlow Semi Condensed";
+    font-size: 14px;
+    line-height: 23px;
+    padding-left: 0;
+    justify-content: flex-end;
+    width: 458px;
+}
+
+.nav-right-account>li {
+    display: inline;
+    list-style-type: none;
+}
+
+.nav-right-item>a {
+    text-decoration: none;
+    color: inherit;
+    cursor: auto;
+}
+
+.menu-header {
+    /* justify-content: space-between; */
+    display: flex;
+    justify-content: center;
+    font-family: "Barlow Semi Condensed";
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+    line-height: 23px;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(61, 61, 61);
+}
+
+.main-menu li {
+    position: relative;
+}
+
+.main-menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    z-index: 2;
+}
+
+.main-menu ul.sub-menu {
+    position: absolute;
+    width: 200px;
+    padding: 15px 0px;
+    list-style: none;
+    display: none;
+    color: rgb(61, 61, 61);
+    background-color: rgb(247, 247, 247);
+    z-index: 2;
+}
+
+
+.main-menu li:hover>ul.sub-menu {
+    display: block;
+}
+
+.main-menu ul.sub-menu a {
+    border-bottom: 1px solid rgb(247, 247, 247);
+    left: 0;
+}
+
+.main-menu ul.sub-menu li:hover>a {
+    border-bottom: 1px solid rgb(220, 244, 244);
+    color: red;
+}
+
+.main-menu ul.sub-menu li:last-child a {
+    border: none;
+}
+
+.main-menu ul.sub-menu ul.sub-menu {
+    right: -100%;
+    top: -15px;
+    z-index: 1;
+}
+
+.sub-menu .had-child {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.bx-size {
+    width: 20px;
+    height: 20px;
+}
+
+.pd {
+    padding-right: 34px;
+}
+
+.pd-26 {
+    padding-right: 26px;
+}
+
+.mg {
+    margin-left: 46px;
+}
+
+.mg-nav {
+    margin-left: 56px;
+}
+
+.mg-logo {
+    margin-left: 139px;
+}
+
+.mega-box {
+    color: rgb(61, 61, 61);
+    display: block;
+    background-color: rgba(255, 255, 255, 0.95);
+    font-family: "Barlow Semi Condensed";
+    font-size: 14px;
+    list-style: none;
+    max-height: 600px;
+    padding: 10px;
+}
+
+.content {
+    border: 10px;
+    padding: 25px 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main {
+    width: 25%;
+    list-style: 45px;
+}
+
+
+/* =======================foter============ */
