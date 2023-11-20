@@ -1,6 +1,6 @@
 import { Link, Outlet } from 'react-router-dom';
 import './mainLayout.css'
-import { PhoneOutlined, SearchOutlined, ShoppingCartOutlined, UserOutlined } from '@ant-design/icons';
+import {  SearchOutlined, ShoppingCartOutlined, UserOutlined } from '@ant-design/icons';
 
 const MainLayout = () => {
   return <div>
