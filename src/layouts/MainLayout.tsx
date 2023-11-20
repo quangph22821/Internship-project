@@ -14,7 +14,7 @@ const MainLayout = () => {
                   <a href=""><i className='bx bxs-map bx-size mg'></i>ĐỊA CHỈ: VIỆT NAM</a>
                 </li>
                 <li className="nav-left-item">
-                  <a href=""><PhoneOutlined />SĐT: 0858879636 </a>
+                  <a href=""></a>
                 </li>
               </ul>
             </nav>
